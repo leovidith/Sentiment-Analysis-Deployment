@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: grey;
-    color: #ffffff;
+    background-color: rgb(36,41,51);
+    color: rgb(89, 97, 114);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,16 +12,20 @@ body {
 
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(57, 66, 85, 0.2);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 500px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:rgb(236, 76, 86);
 }
 
 h1 {
     margin-bottom: 20px;
+    color: white;
 }
 
 form {
@@ -30,7 +34,7 @@ form {
 }
 
 textarea {
-    width: 100%;
+    width: 94%;
     height: 100px;
     margin-bottom: 20px;
     padding: 10px;
@@ -38,6 +42,8 @@ textarea {
     border-radius: 5px;
     font-size: 16px;
     resize: none;
+    background-color: rgb(89, 97, 114);
+    color: white;
 }
 
 textarea:focus {
@@ -49,15 +55,17 @@ button {
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
-    background: #2575fc;
+    background: rgb(36,41,51);
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background 0.3s ease;
 }
 
 button:hover {
-    background: #6a11cb;
+    color: #ffffff;
+    background: rgb(236, 76, 86);
+    
 }
 
 #result {
