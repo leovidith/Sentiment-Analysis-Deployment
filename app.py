@@ -4,6 +4,7 @@ import re
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
+import gunicorn
 nltk.download('punkt_tab')
 
 app = Flask(__name__)
